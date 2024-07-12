@@ -5433,6 +5433,26 @@
     },
     {
       "func": {
+        "id": "ourFunction",
+        "description": "Our function",
+        "declaration": "function ourFunction(uint64 number) external pure returns (uint64 square);",
+        "visibility": "external",
+        "mutability": "pure",
+        "signature": "ourFunction(uint64)",
+        "selector": "0x3b031e9a",
+        "selectorBytes": [
+          59,
+          3,
+          30,
+          154
+        ]
+      },
+      "group": "evm",
+      "status": "stable",
+      "safety": "safe"
+    },
+    {
+      "func": {
         "id": "parseAddress",
         "description": "Parses the given `string` into an `address`.",
         "declaration": "function parseAddress(string calldata stringifiedValue) external pure returns (address parsedValue);",
